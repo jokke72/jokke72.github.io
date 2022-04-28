@@ -46,9 +46,9 @@
           <p class="lead my-4">Tässä vähän taustaa minusta. Kokenut järjestelmäasiantuntija, joka hallitsee Macit, Windowsit ja Linuxit. 
             Vahvuuksiani ovat asiakaslähtöinen ajattelutapa ja periksiantamaton ongelmanratkaisu. Tykkään oppia uutta, se toimii minulle motivaattorina.
             </p>
-          <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Ota yhteyttä</button>
+          <button class="btn btn-primary btn-lg mb-4" data-bs-toggle="modal" data-bs-target="#enroll">Ota yhteyttä</button>
         </div>
-        <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+        <img class="img-fluid w-50 d-none d-sm-block" src="img/comp_guy2.png" alt="">
       </div>
     </div>
   </section>
@@ -215,11 +215,12 @@
               <h6>Nettisivujen tekeminen riippuu monesta asiasta.</h6>
               <ul>
                 <li>Onko sinulla jo entuudestaan sivut jossakin <a href="https://www.hostingpalvelu.fi/webhotellit/">www-hotellissa</a> (hinnat alk. 6€/kk +alv 24%) ? </li>
-                <li>Omistatko <a href="https://www.hostingpalvelu.fi/asiakkaat/domain-verkkotunnus-haku">domainin</a> (eli www-osoitteen, hinnat alk. 3,95€/vuosi +alv 24%)?</li>
+                <li>Omistatko <a href="https://www.hostingpalvelu.fi/asiakkaat/domain-verkkotunnus-haku">domainin</a> (eli www-osoitteen, .eu osoitteet hinnat alk. 3,95€/vuosi +alv 24%)?</li>
                 <li>Kuinka monimutkikkaita sivuja olet miettinyt?</li>
                 <li>Onko sinulla jo valmiina kuvat? Tarviiko niitä muokata?</li>
               </ul>
               <p>Niin kuin huomasit, nettisivuille ei voi suoraan antaa mitään kiinteää hintaa. Jos sinulla on kaikki edellä mainitut asiat jo kunnossa, niin silloin yhden sivun www-sivujen (ns. <a href="https://www.kirmanen.fi">onepager</a>) lähtöhinta on 500€ ALV0%.</p>
+              <p>Jos sinua askarruttaa jokin asia, ota rohkeasti yhteyttä minuun ylälaidassa olevalla napilla.</p>
             </div>
           </div>
         </div>
@@ -294,7 +295,7 @@
           <div class="card bg-light">
             <div class="card-body text-center">
               <img src="/img/digitaaliset.jpg" class="rounded-circle shadow mb-3" alt="Digitaaliset">
-              <h4 class="card-title">Luottodata Oy/Digitaaliset</h4>
+              <h4 class="card-title">Luottodata Oy / Digitaaliset</h4>
               <p class="card-text">Asiakaspalvelu, tietokonehuolto, komponenttien vaihto, virusten siivous, koneiden vuosihuolto, hifi-laitteiden puhdistus. Myös yrityksen graafinen suunnittelu, www-sivut (myös asiakkaiden) ja mainokset.</p>
                 <ul class="list-group list-group-flush">
                   <li class=" list-group item">
@@ -464,30 +465,28 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+        <h5 class="modal-title" id="enrollLabel">Yhteydenotto</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p class="lead">Fill out this form and we will get back to you</p>
+        <p class="lead">Täytä lomake niin olen sinuun yhteydessä!</p>
         <form>
           <div class="mb-3">
-            <label for="first-name" class="col-form-label">
-              First name
+            <label for="name" class="col-form-label">
+              Nimi *
             </label>
-            <input type="text" class="form-control" id="first-name">
+            <input type="text" class="form-control" id="name">
           </div>
           <div class="mb-3">
-            <label for="last-name" class="col-form-label">
-              Last name
-            </label>
-            <input type="text" class="form-control" id="first-name">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="col-form-label">Email</label>
+            <label for="email" class="col-form-label">Sähköposti *</label>
             <input type="email" class="form-control" id="email">
           </div>
           <div class="mb-3">
-            <label for="phone" class="col-form-label">Phone:</label>
+            <label for="phone" class="col-form-label">Puhelin:</label>
+            <input type="tel" class="form-control" id="phone">
+          </div>
+          <div class="mb-3">
+            <label for="text" class="col-form-label">Viesti:</label>
             <input type="tel" class="form-control" id="phone">
           </div>
         </form>
